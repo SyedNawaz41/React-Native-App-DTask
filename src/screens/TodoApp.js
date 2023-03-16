@@ -43,7 +43,7 @@ const TodoApp = () => {
     <View style={styles.container}>
       {/* Today's Task */}
       <View style={styles.tasksWrapper}>
-        <Text style={styles.sectiionTitle}>Today's Task</Text>
+        <Text style={styles.sectiionTitle}>Today's Tasks</Text>
 
         <ScrollView showsVerticalScrollIndicator={false} style={styles.items}>
           {/* This is where the task will go */}
